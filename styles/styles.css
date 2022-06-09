@@ -1,0 +1,298 @@
+html {
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+
+.wave {
+  width: 100%;
+  height: 90vw;
+  position: absolute;
+  top: -50%;
+  left: 0;
+  margin-top: -20em;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, 0.75);
+  animation: wave 15s infinite linear;
+  z-index: -2;
+}
+
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+/* html::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.7;
+  background-image: url("../assets/images/fondo.jpeg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  z-index: -1;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista {
+  display: flex;
+}
+.titular {
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+a {
+  font-size: 14px;
+  background: #5cb8ff;
+  color: white;
+  padding: 20px 30px 20px 30px;
+  border-radius: 18px;
+}
+
+header {
+  /* background: url(fondo.jpeg); */
+  height: 100vh;
+  background-size: cover;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+/* SECCION SOBRE MI */
+
+h3 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.contenedor-sobremi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor-sobremi img {
+  width: 40%;
+  border-radius: 15px;
+}
+
+.contenedor-parrafo-y-boton {
+  width: 45%;
+}
+
+.contenedor-parrafo-y-boton p {
+  font-size: 16px;
+}
+
+.contenedor-parrafo-y-boton a {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.contenedor-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servicio {
+  width: 23%;
+  padding: 38px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  color: #fff;
+  height: 510px;
+}
+
+.violeta {
+  background: #5055df;
+}
+
+.celeste {
+  background: #40a8fa;
+}
+
+.servicio h4 {
+  font-size: 30px;
+  height: 75px;
+}
+
+.servicio img {
+  width: 60%;
+  float: right;
+}
+
+.servicio p {
+  height: 200px;
+}
+
+span {
+  font-size: 70px;
+  color: #5055df;
+}
+
+.owl-nav {
+  height: 123px;
+}
+
+.owl-carousel div {
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.owl-carousel img {
+  border-radius: 20px;
+}
+
+.owl-stage-outer {
+  height: 205px;
+}
+
+/* .tres {
+  background: url("../assets/images/fondo.jpeg");
+} */
+
+h5 {
+  font-size: 80px;
+  height: 60px;
+}
+
+.contenedor-personajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contenedor-personajes h4 {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.contenedor-personajes p {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.personajes-singular {
+  width: 40%;
+  height: 680px;
+  /* background: #5cb8ff; */
+  background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+  margin-bottom: 100px;
+  padding-top: 20px;
+  border-radius: 50px;
+}
+
+.personajes-singular img {
+  height: 340px;
+  margin: 20px 0px 10px 0px;
+}
+
+.personajes-singular p {
+  margin: 10px 30px 10px 30px;
+  color: black;
+}
+
+.personajes-singular h4 {
+  font-size: 40px;
+}
+
+.contenedor h5 {
+  background: #5055df;
+  height: 120px;
+  border-radius: 40px;
+  color: white;
+  font-size: 80px;
+  font-weight: lighter;
+  margin: 50px 0px 100px 0px;
+}
+
+.videos {
+  display: flex;
+}
+
+.video {
+  border-radius: 15px;
+  width: 500px;
+  height: 300px;
+  margin: 30px;
+}
+
+/* Footer */
+
+.contenedor-footer{
+  display: flex;
+  border:none;
+  justify-content: space-around;
+}
+
+.content-foo{
+  margin-bottom: 20px;
+}
+
+.content-foo h4{
+  border: none;
+}
+
+.content-foo p{
+  color:rgb(168, 116, 116);
+  border-bottom: 1px solid #7e5252;
+  padding-bottom: 20px;
+}
+
+.titulo-final{
+  font-size: 20px;
+}
+
+
